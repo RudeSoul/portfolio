@@ -1,0 +1,45 @@
+$font-family-gilroy: "Gilroy-Medium",
+sans-serif;
+
+$font-family-gilroy-bold: "Gilroy-Bold",
+sans-serif;
+
+$font-style-normal : normal;
+$font-weight-normal: normal;
+
+$line-height: 22px;
+
+//color used
+
+$black: #070707;
+$white:#F6F6F6;
+$gray:#828282;
+
+
+
+
+$menu__inactive--color:$gray;
+$heading-color:$black;
+$white-background:$white;
+
+$effect__drop-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
+$font-family--default: $font-family-gilroy;
+$header-font-family:$font-family-gilroy-bold;
+$font-style--default: $font-style-normal;
+$font-weight--default: $font-weight-normal;
+$line-height--default: $line-height;
+
+//Heading font size vairables
+$h1-font-size : 47px;
+$h2-font-size:34px;
+$body-font-size: 18px;
+
+
+
+//Breakpoints
+$sm-device: 375px;
+$md-device: 768px;
+$lg-device: 992px;
+$xl-device: 1440px;

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main-body">
+        <div class="header">
+            <div class="flex header__menu">
+                <div class="menu__items menu__1 menu__items--active">
+                    <a href="#">Home</a>
+                </div>
+                <div class="menu__items menu__2">
+                    <a href="#">About me</a>
+                </div>
+                <div class="menu__items menu__3">
+                    <a href="#">Skills</a>
+                </div>
+                <div class="menu__items menu__4">
+                    <a href="#">Portfolio</a>
+                </div>
+                <div class="menu__items menu__5">
+                    <a href="#">Contacts</a>
+                </div>
+                <div class="rectangle menu__rect"></div>
+
+
+            </div>
+            <div class="burger-menu" id="burgerMenu">
+                <div class="close-icon">
+                    <a onclick="closeBurgerMenu()"><img src="images/close.png" alt="close">
+                    </a>
+                </div>
+
+                <div class="burger-menu__item burger-menu__item--active ">
+                    <h2>Home</h2>
+                </div>
+                <div class="burger-menu__item ">
+                    <h2>About me</h2>
+                </div>
+                <div class="burger-menu__item ">
+                    <h2>Skills</h2>
+                </div>
+                <div class="burger-menu__item ">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="burger-menu__item ">
+                    <h2>Contacts</h2>
+                </div>
+
+
+
+            </div>
+            <div class="flex header__identity">
+                <div class="portfolio__name">
+                    <h1>
+                        Denis
+                        Novik
+                    </h1>
+                </div>
+                <div class="burger-icon" id="burgerMenuIcon">
+                    <a onclick="openBurgerMenu()"><img src="images/burger-icon.png" alt="burger-icon"></a>
+                </div>
+                <div class="portfolio__work">
+                    <span>
+                        UX | UI designer
+                        24 years old, Minsk
+                    </span>
+                </div>
+
+                <div class="portfolio__language">
+                    <span>
+                        NP | <span class="active">ENG</span>
+                    </span>
+                </div>
+            </div>
+            <div class="profile-pic">
+                <img src="images/BSPP2266.png" alt="">
+                <!-- <img src="images/lady-img.png" alt=""> -->
+            </div>
+            <div class="profile-pic__sm">
+                <img src="images/sm-img.png" alt="">
+                <!-- <img src="images/lady-img.png" alt=""> -->
+            </div>
+        </div>
+        <div class="body">
+            <div class="about-me">
+                <h2>About me</h2>
+                <div class="about-me__description">
+                    <p class="short-description--1">Hi, I'm Denis – UX/UI designer from Minsk.</p>
+                    <p class="fullscreen"> I'm interested in design and everything connected with it.</p>
+                    <p class="for-sm">
+
+                        Hi, I'm Denis – UX/UI designer from Minsk.
+                        I'm interested in design and everything connected with it.
+
+                    </p>
+                    </p>
+                    <p class="short-description--2">I'm studying at courses "Web and mobile design
+                        interfaces" in IT-Academy.</p>
+
+                    <p class="short-description--3">Ready to implement excellent projects
+                        with wonderful people.</p>
+                </div>
+            </div>
+            <div class="skills">
+                <h2>Skills</h2>
+
+                <div class="skills__description">
+                    <p>I work in such programs as</p>
+                </div>
+                <div class="flex skills__icons">
+                    <div class="flex skills__items skills__items--1">
+                        <div class="items__img">
+                            <img src="images/psd.png" alt="photoshop">
+
+                        </div>
+                        <div class="skills__label">
+                            Adobe
+                            Photoshop
+                        </div>
+                        <div class=" flex skills__star">
+                            <img class="first-star" src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star_disable.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="flex skills__items skills__items--2">
+                        <div class="items__img">
+                            <img src="images/illustrator.png" alt="photoshop">
+
+                        </div>
+                        <div class="skills__label">
+                            Adobe
+                            illustrator
+                        </div>
+                        <div class=" flex skills__star">
+                            <img class="first-star" src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star_disable.png" alt="star">
+                            <img src="images/Star_disable.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="flex skills__items skills__items--3">
+                        <div class="items__img">
+                            <img src="images/aftereffect.png" alt="photoshop">
+
+                        </div>
+                        <div class="skills__label">
+                            Adobe
+                            After Effects
+                        </div>
+                        <div class=" flex skills__star">
+                            <img class="first-star" src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star_disable.png" alt="star">
+                        </div>
+                    </div>
+                    <div class="flex skills__items skills__items--4">
+                        <div class="items__img">
+                            <img src="images/figma.png" alt="photoshop">
+
+                        </div>
+                        <div class="skills__label">
+                            Figma
+                        </div>
+                        <div class=" flex skills__star">
+                            <img class="first-star" src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star.png" alt="star">
+                            <img src="images/Star_disable.png" alt="star">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio">
+                <h2>Portfolio</h2>
+                <div class="portfolio__items portfolio__items--1">
+                    <div class="porfolio__items-screenshot">
+                        <img src="images/Слой_8.png" alt="cron landing page">
+                    </div>
+                    <div class="portfolio__items-label">
+                        <span>
+                            Online fashion store - Homepage
+                        </span>
+                    </div>
+                </div>
+                <div class="portfolio__items portfolio__items--2">
+                    <div class="porfolio__items-screenshot">
+                        <img src="images/reebok_web.png" alt="cron landing page">
+                    </div>
+                    <div class="portfolio__items-label">
+                        <span>
+                            Reebok Store - Concept
+                        </span>
+                    </div>
+                </div>
+                <div class="portfolio__items portfolio__items--3">
+                    <div class="porfolio__items-screenshot">
+                        <img src="images/braun.png" alt="cron landing page">
+                    </div>
+                    <div class="portfolio__items-label">
+                        <span>
+                            Braun Landing Page - Concept
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="contactus">
+                <h2>Contacts</h2>
+                <div class="contact__intro">
+                    Want to know more or just chat?
+                    You are welcome!
+                </div>
+                <button class="btn" type="submit">
+                    <span class="label">
+                        Send Message
+                    </span>
+                </button>
+
+                <div class="flex social-links">
+                    <div class="social-link__icons linkend">
+                        <img src="images/linkind.png" alt="linkedn">
+                    </div>
+                    <div class="social-link__icons instagram">
+                        <img src="images/instagram.png" alt="instagram">
+                    </div>
+                    <div class="social-link__icons behance">
+                        <img src="images/behance.png" alt="behance">
+                    </div>
+                    <div class="social-link__icons dribble">
+                        <img src="images/dribble.png" alt="dribble">
+                    </div>
+                </div>
+
+                <div class="footer-txt">
+                    Like me on
+
+                    <p>LinkedIn, Instagram, Behance, Dribble
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

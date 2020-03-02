@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    font-family: $font-family--default;
+    font-style: $font-style--default;
+    font-weight: $font-weight--default;
+    font-size: $body-font-size;
+    line-height: $line-height--default;
+    text-shadow: $effect__drop-shadow;
+
+    @include mq-max(sm) {
+        text-shadow: none;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font-family;
+    color: $heading-color;
+    text-shadow: $effect__drop-shadow;
+
+    @include mq-max(sm) {
+        text-shadow: none;
+    }
+}
+
+h1 {
+    font-size: $h1-font-size;
+    line-height: 59px;
+    color: $heading-color;
+}
+
+h2 {
+    font-size: $h2-font-size;
+    line-height: 42px;
+}
+
+a {
+    text-decoration: none;
+}
+
+span {
+    color: $heading-color;
+    text-shadow: $effect__drop-shadow;
+
+    @include mq-max(sm) {
+        text-shadow: none;
+    }
+}
+
+div {
+    text-shadow: $effect__drop-shadow;
+
+    @include mq-max(sm) {
+        text-shadow: none;
+    }
+}
+
+img {
+    cursor: pointer;
+}
