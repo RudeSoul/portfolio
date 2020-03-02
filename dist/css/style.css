@@ -474,6 +474,10 @@ img {
   cursor: pointer;
 }
 
+button {
+  cursor: pointer;
+}
+
 .rectangle {
   height: 0px;
   border: 1px solid #828282;
