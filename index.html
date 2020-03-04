@@ -10,7 +10,7 @@
 
 <body>
     <div class="main-body">
-        <div class="header">
+        <header class="header">
             <div class="flex header__menu">
                 <div class="menu__items menu__1 menu__items--active">
                     <a href="#">Home</a>
@@ -31,7 +31,7 @@
 
 
             </div>
-            <div class="burger-menu" id="burgerMenu">
+            <nav class="burger-menu" id="burgerMenu">
                 <div class="close-icon">
                     <a onclick="closeBurgerMenu()"><img src="images/close.png" alt="close">
                     </a>
@@ -55,7 +55,7 @@
 
 
 
-            </div>
+            </nav>
             <div class="flex header__identity">
                 <div class="portfolio__name">
                     <h1>
@@ -87,11 +87,11 @@
                 <img src="images/sm-img.png" alt="">
                 <!-- <img src="images/lady-img.png" alt=""> -->
             </div>
-        </div>
-        <div class="body">
-            <div class="about-me">
+        </header>
+        <main class="body">
+            <article class="about-me">
                 <h2>About me</h2>
-                <div class="about-me__description">
+                <section class="about-me__description">
                     <p class="short-description--1">Hi, I'm Denis – UX/UI designer from Minsk.</p>
                     <p class="fullscreen"> I'm interested in design and everything connected with it.</p>
                     <p class="for-sm">
@@ -106,15 +106,15 @@
 
                     <p class="short-description--3">Ready to implement excellent projects
                         with wonderful people.</p>
-                </div>
-            </div>
-            <div class="skills">
+                </section>
+            </article>
+            <article class="skills">
                 <h2>Skills</h2>
 
                 <div class="skills__description">
                     <p>I work in such programs as</p>
                 </div>
-                <div class="flex skills__icons">
+                <article class="flex skills__icons">
                     <div class="flex skills__items skills__items--1">
                         <div class="items__img">
                             <img src="images/psd.png" alt="photoshop">
@@ -182,9 +182,9 @@
                             <img src="images/Star_disable.png" alt="star">
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="portfolio">
+                </article>
+            </article>
+            <article class="portfolio">
                 <h2>Portfolio</h2>
                 <div class="portfolio__items portfolio__items--1">
                     <div class="porfolio__items-screenshot">
@@ -216,8 +216,8 @@
                         </span>
                     </div>
                 </div>
-            </div>
-            <div class="contactus">
+            </article>
+            <footer class="contactus">
                 <h2>Contacts</h2>
                 <div class="contact__intro">
                     Want to know more or just chat?
@@ -250,8 +250,8 @@
                     <p>LinkedIn, Instagram, Behance, Dribble
                     </p>
                 </div>
-            </div>
-        </div>
+            </footer>
+        </main>
     </div>
     <script src="js/script.js"></script>
 </body>
